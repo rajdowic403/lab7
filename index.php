@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["plik"])) {
         <h1>Zadanie 7</h1>
         <?php echo $komunikat; ?>
 
-        <form method="post" enctype="multipart/form-data" action="upload.php">
+        <form method="post" enctype="multipart/form-data" action="index.php">
             <label for="plik">Wybierz plik:</label><br>
             <input type="file" id="plik" name="plik" required><br><br>
             <input type="submit" value="Prześlij i Generuj Metadane">
